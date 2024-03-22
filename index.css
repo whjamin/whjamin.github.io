@@ -3,3 +3,14 @@
     color: rgb(93, 47, 219);
     font-weight: bolder;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, minmax(100px, auto));
+}
+
+.item {
+    background: #f68080;
+    border: 2px solid #221616;
+}
